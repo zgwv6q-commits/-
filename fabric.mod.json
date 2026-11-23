@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "natsuki_visual",
+  "version": "1.0.0",
+  "name": "Natsuki Visual",
+  "description": "Pink-themed visual HUD and menu.",
+  "environment": "client",
+  "entrypoints": { "client": ["natsuki.NatsukiVisual"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
